@@ -30,7 +30,7 @@ test('login page', async ({ page }) => {
   //   await expect(genderOptions).toHaveCount(2);
 
   await page.fill("input[id='register.mobileNumber']", '558717449');
-  await page.fill("input[id='register.email']", 'najebahashimalhashim1111111123@g.com');
+  await page.fill("input[id='register.email']", 'najebahashimalhashim11111111234444@g.com');
   await page.fill('#register_password', 'test1234');
   await page.fill("input[id='register.checkPwd']", 'test1234');
 
